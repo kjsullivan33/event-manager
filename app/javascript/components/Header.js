@@ -1,9 +1,11 @@
 import React from 'react';
 
+import HeaderStyle from './styles/HeaderStyle';
+
 const Header = () => (
-  <header>
+  <HeaderStyle>
     <h1>Event Manager</h1>
-  </header>
+  </HeaderStyle>
 );
 
 export default Header;
